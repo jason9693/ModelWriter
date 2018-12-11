@@ -40,7 +40,7 @@ from model_writer import *
 
 # use 'mv.set_value(value_name, value)' to add value in 'mv' instance.
 > mv1.set_value("loss",0.3)
-> mv2.set_value("loss",0.64)
+> mv2.set_value("accuracy",0.64)
 ~~~
 
 ## ModelWriter class
