@@ -3,6 +3,11 @@
 This repo is a module for handling DeepLearning model values
 (accuracy, loss, etc...) based on csv and 'ModelValue' class.
 
+## Install
+~~~
+> pip install model_writer
+~~~
+
 ## Simple Use
 ~~~
 from model_writer import *
