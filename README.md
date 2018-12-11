@@ -10,7 +10,7 @@ This repo is a module for handling DeepLearning model values
 
 ## Simple Use
 ~~~
-from model_writer import *
+from writer.model_writer import *
 
 > mv1 = ModelValue("model1", {"accuracy": 0.7})
 > mv2 = ModelValue("model2", {"accuracy": 0.3})
@@ -38,7 +38,7 @@ from model_writer import *
 #### Useage
 You can handle this class like this.
 ~~~
-from model_writer import *
+from writer.model_writer import *
 
 > mv1 = ModelValue("model1", {"accuracy": 0.7})
 > mv2 = ModelValue("model2", {"loss": 0.3})
