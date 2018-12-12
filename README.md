@@ -8,6 +8,9 @@ This repo is a module for handling DeepLearning model values
 > pip install model_writer
 ~~~
 
+## Architecture
+![](./img/Architecture.png)
+
 ## Simple Use
 ~~~
 from writer.model_writer import *
@@ -30,7 +33,6 @@ from writer.model_writer import *
 | accuracy |      0.7 |     0.5  |
 | loss     |      0.3 |     0.64 |
 [](from_simple)
-
 
 ## ModelValue class
 "ModelValue" is a class for some values of one model during training or eval.
